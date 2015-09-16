@@ -21,7 +21,7 @@
 /sys/devices/fd510000.gpio/gpio/gpio144(/.*)?   u:object_r:sysfs_thermal:s0
 /sys/devices/qpnp-charger-ed24c400(/.*)?        u:object_r:sysfs_thermal:s0
 /sys/devices/virtual/graphics/fb0/hbm           u:object_r:display_sysfs:s0
-/sys/devices/virtual/graphics/fb0/rgb           u:object_r:display_sysfs:s0
+#/sys/devices/virtual/graphics/fb0/rgb           u:object_r:display_sysfs:s0
 /sys/vibrator/pwmvalue                          u:object_r:vibeamp_sysfs:s0
 
 /system/bin/adspd                       u:object_r:adspd_exec:s0
