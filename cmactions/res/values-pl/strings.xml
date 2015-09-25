@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="user_aware_display_title">Aktywny ekran podczas spoglądania na niego</string>
   <string name="user_aware_display_summary">Utrzymuj ekran włączony, gdy użytkownik spogląda na ekran</string>
   <string name="screen_gestures_panel_title">Gesty skrótów</string>
   <string name="screen_gestures_panel_summary">Używaj gestów do wykonywania czynności</string>
@@ -27,12 +28,15 @@
   <string name="actions_title">Akcje</string>
   <string name="camera_gesture_title">Podwójne potrząśnięcie</string>
   <string name="camera_gesture_summary">Akcja, kiedy użyto gestu ósemki</string>
+  <string name="chop_chop_gesture_title">Podwójne potrząśnięcie</string>
+  <string name="chop_chop_gesture_summary">Akcja, kiedy użyto podwójnego potrząśnięcia</string>
   <string name="ir_silencer_title">Potrząśnij, aby wyciszyć</string>
   <string name="ir_silencer_summary">Wycisz połączenia przychodzące machając ręką przed ekranem</string>
   <string name="action_none">Wyłączone</string>
   <string name="action_launch_camera">Uruchom aparat</string>
   <string name="action_torch">Przełącznik latarki</string>
   <string name="feedback_intensity_title">Intensywność wibracji</string>
+  <string name="feedback_intensity_summary">Siła wibracji dla podwójnego obrócenia i potrząśnięcia</string>
   <string name="feedback_intensity_none">Wyłączona</string>
   <string name="feedback_intensity_low">Niska</string>
   <string name="feedback_intensity_medium">Średnia</string>

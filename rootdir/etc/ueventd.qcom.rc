@@ -240,6 +240,9 @@
 /dev/stm401               0660  system     compass
 /dev/stm401_as            0660  compass    compass
 /dev/stm401_ms            0660  compass    compass
+/sys/devices/virtual/stm401/stm401_as* timestamp_time_ns    0440 compass compass
+/sys/devices/virtual/stm401/stm401_as* rv_6axis_update_rate 0660 compass compass
+/sys/devices/virtual/stm401/stm401_as* rv_9axis_update_rate 0660 compass compass
 
 # Moto Sensors
 /dev/stml0xx               0660  system     compass
