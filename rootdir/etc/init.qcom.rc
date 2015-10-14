@@ -37,6 +37,9 @@ on init
     # Set permissions for persist partition
     mkdir /persist 0771 system system
 
+    # Symbols required for motorola blobs
+    export LD_PRELOAD /system/lib/libmoto.so
+
     # Support legacy paths
     symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0

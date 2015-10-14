@@ -184,7 +184,8 @@ PRODUCT_COPY_FILES += \
 
 # Motorola
 PRODUCT_PACKAGES += \
-    charge_only_mode
+    charge_only_mode \
+    libmoto
 
 # NFC
 PRODUCT_PACKAGES += \
