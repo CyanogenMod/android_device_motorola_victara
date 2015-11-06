@@ -56,6 +56,13 @@ void vendor_load_properties()
         property_set("ro.build.fingerprint", " motorola/victara_retca/victara:5.1/LPE23.32-48.1/1:user/release-keys");
         property_set("ro.telephony.default_network", "9");
         property_set("telephony.lteOnGsmDevice", "1");
+    } else if (strstr(cid, "0xC")) {
+        /* XT1097 - retbr (Brazilian Retail variant of victara) */
+        property_set("ro.product.model", "XT1097");
+        property_set("ro.build.description", "victara_retbr-user 5.1 LPE23.32-14 13 release-keys");
+        property_set("ro.build.fingerprint", "motorola/victara_retbr/victara:5.1/LPE23.32-14/13:user/release-keys");
+        property_set("ro.telephony.default_network", "9");
+        property_set("telephony.lteOnCdmaDevice", "1");
     } else if (strstr(cid, "0x7")) {
         /* xt1092 */
         property_set("ro.product.model", "XT1092");
