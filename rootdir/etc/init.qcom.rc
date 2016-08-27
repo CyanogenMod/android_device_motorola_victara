@@ -34,6 +34,8 @@ on early-init
     chown system graphics /sys/devices/virtual/graphics/fb0/idle_time
 
 on init
+    export LD_SHIM_LIBS /system/bin/thermal-engine|libshims_thermal.so
+
     # Set permissions for persist partition
     mkdir /persist 0771 system system
 
