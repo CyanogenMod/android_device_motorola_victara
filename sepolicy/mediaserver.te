@@ -4,4 +4,3 @@ allow mediaserver firmware_file:dir search;
 allow mediaserver firmware_file:file r_file_perms;
 allow mediaserver rild_socket:sock_file write;
 allow mediaserver socket_device:sock_file write;
-allow mediaserver system_file:file execmod;

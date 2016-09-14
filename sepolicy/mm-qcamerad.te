@@ -4,6 +4,5 @@ binder_call(mm-qcamerad, system_server);
 allow mm-qcamerad mpdecision:unix_stream_socket connectto;
 allow mm-qcamerad camera_socket:sock_file { create unlink };
 allow mm-qcamerad socket_device:sock_file write;
-allow mm-qcamerad system_file:file execmod;
 allow mm-qcamerad system_data_file:dir { add_name remove_name write };
 allow mm-qcamerad system_server:unix_stream_socket rw_socket_perms;
