@@ -23,3 +23,17 @@ LOCAL_MODULE := libshims_thermal
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
+
+# Camera
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+    SensorManager.cpp \
+    moto_camera_misc.c
+
+LOCAL_SHARED_LIBRARIES := libutils libgui liblog libbinder
+
+LOCAL_MODULE := libshim_camera
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_SHARED_LIBRARY)
