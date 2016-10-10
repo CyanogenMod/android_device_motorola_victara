@@ -88,6 +88,9 @@ ro.vendor.extension_library=/vendor/lib/libqti-perfd-client.so
 # Radio
 persist.radio.apn_delay=5000
 
+# Bluetooth
+qcom.bluetooth.soc=smd
+
 # Camera
 camera2.portability.force_api=1
 
